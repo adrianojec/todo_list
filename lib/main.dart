@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (context) => TaskData(),
       child: const MaterialApp(
+        title: 'Todo-List',
         debugShowCheckedModeBanner: false,
         home: TasksScreen(),
       ),
